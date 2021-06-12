@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+.spinnerLoad {
+    height: 100vh;
+}
+
 /* .App {
     text-align: center;
 }
