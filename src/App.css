@@ -88,11 +88,19 @@ body {
 
 .listTodos {
     list-style-type: none;
+    width: 100%;
+    color: white;
+    border: 2px solid slateblue;
 }
 
 .listTodos .form-control {
     background: none;
-    width: 100%;
+    border: none;
     color: white;
-    border: 2px solid slateblue;
+    outline: none;
+}
+
+button {
+    background: none;
+    border: none;
 }

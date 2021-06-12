@@ -14,7 +14,7 @@ function Form({ input, setInput, todos, setTodos }) {
             <div className="col-md-12">
                 <form action="" onSubmit={formHandler} className="d-flex justify-content-around">
                     <div className="form-group formGroup">
-                        <input type="text" name="inputTodo" id="inputTodo" className="form-control formControl" required placeholder="Enter a Todo..." value={input} onChange={e => setInput(e.target.value)} />
+                        <input type="text" autoFocus name="inputTodo" id="inputTodo" className="form-control formControl" required placeholder="Enter a Todo..." value={input} onChange={e => setInput(e.target.value)} />
                     </div>
                     <div className="form-group formGroup">
                         <button type="submit" name="submit" className="btn btn-warning">Add</button>
