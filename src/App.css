@@ -1,40 +1,98 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* .App {
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-  width: 100px;
+    height: 40vmin;
+    pointer-events: none;
+    width: 200px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
 
-  to {
-    transform: rotate(360deg);
-  }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+body {
+    background-color: rgb(5, 214, 214);
+}
+
+
+.wrapper {
+    height: 100vh;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    width: 420px;
+    /* background-color: rgb(28, 29, 28); */
+    background-color: rgb(38, 38, 37);
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 30px rgb(41, 40, 40);
+}
+
+.card-header {
+    font-size: 30px;
+    background: none;
+    border: none;
+    margin-right: 3%;
+}
+
+.logoReact {
+    width: 30px;
+}
+
+.card-footer {
+    background: none;
+    letter-spacing: 1px;
+}
+
+.formGroup .formControl {
+    background: none;
+    border: 2px solid seagreen;
+    outline: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.listTodos {
+    list-style-type: none;
+}
+
+.listTodos .form-control {
+    background: none;
+    width: 100%;
+    color: white;
+    border: 2px solid slateblue;
 }
