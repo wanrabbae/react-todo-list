@@ -56,7 +56,7 @@ body {
     width: 420px;
     /* background-color: rgb(28, 29, 28); */
     background-color: rgb(38, 38, 37);
-    height: 70%;
+    height: 90%;
     border-radius: 10px;
     border: none;
     box-shadow: 2px 2px 30px rgb(41, 40, 40);
@@ -84,6 +84,16 @@ body {
     outline: none;
     color: white;
     letter-spacing: 1px;
+    border-radius: 5px;
+}
+
+.listOfTodos {
+    overflow-y: auto;
+    height: 420px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .listTodos {
@@ -91,6 +101,7 @@ body {
     width: 100%;
     color: white;
     border: 2px solid slateblue;
+    border-radius: 6px;
 }
 
 .listTodos .form-control {
@@ -103,4 +114,8 @@ body {
 button {
     background: none;
     border: none;
+}
+
+.check {
+    padding: -50px;
 }
