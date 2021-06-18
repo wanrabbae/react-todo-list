@@ -5,7 +5,6 @@ function Form({ input, setInput, todos, setTodos, editTodo, setEditTodo }) {
 
     const updateTodo = (title, id, completed) => {
         const newTodo = todos.map((todo) => {
-            console.log(todo);
             return todo.id === id ? { id, title, completed } : todo
         })
 

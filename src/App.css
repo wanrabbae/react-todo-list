@@ -123,3 +123,13 @@ button {
 .check {
     padding: -50px;
 }
+
+@media (max-width: 768px) {
+    .card {
+        width: 340px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
